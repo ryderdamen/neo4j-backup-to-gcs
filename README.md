@@ -30,7 +30,7 @@ EXPORT NEO4J_GCS_UPLOAD_BUCKET=mybucket/subdirectory/
 EXPORT NEO4J_GCS_LOCAL_PATH=/tmp/
 ```
 
-*NOTE*
+*NOTE*:
 For persistance of these variables with system reboot, consider adding them to `/etc/environment` file, so that uploads continue even if there is a power loss.
 
 You can do this like so:
